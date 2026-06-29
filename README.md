@@ -1,6 +1,6 @@
 # Wally Registry List
 
-A simple desktop app to browse all packages in the [Wally](https://wally.run/) registry. Data is loaded from the official [wally-index](https://github.com/UpliftGames/wally-index) GitHub repository — no Wally API calls.
+A simple desktop app to browse all packages in the [Wally](https://wally.run/) registry of Roblox Luau packages. Data is loaded from the official [wally-index](https://github.com/UpliftGames/wally-index) GitHub repository — no Wally API calls.
 
 ## Features
 
