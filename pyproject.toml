@@ -1,0 +1,21 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "wally-registry-list"
+version = "1.0.0"
+description = "Desktop browser for the Wally package registry (wally-index)"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "customtkinter>=5.2.0",
+    "httpx>=0.27.0",
+    "packaging>=24.0",
+]
+
+[project.scripts]
+wally-registry-list = "wally_registry_list.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
